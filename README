@@ -1,0 +1,17 @@
+BeginBackupJob
+==============
+
+A WPF/C# GUI which runs ntbackup (the built-in Windows backup utility) in the background.
+
+I used this to help my parents keep regular backups without any fuss!
+
+Features:
+- Suggestion is to launch as a scheduled task.
+- Requests and waits for an external drive with a specific drive label to be plugged in.
+- Then, runs either a normal or differential backup using ntbackup (depending on the backup count, stored in the registry), with a sensible output filename, etc.
+- Waits for completion and reports success.
+
+
+feedback to: blamey.ben (at) gmail.com
+
+http://benblamey.com/
